@@ -1,0 +1,85 @@
+@media (max-width: 1000px){
+    nav{
+      padding: 0 40px 0 50px;
+    }
+  }
+  @media (max-width: 920px) {
+    nav{
+      height: 19vh;
+    }
+    nav .menu-btn i{
+      display: block;
+    }
+    #click:checked ~ .menu-btn i:before{
+      content: "\f00d";
+    }
+    nav ul{
+      position: fixed;
+      top: 80px;
+      left: -100%;
+      background: #111;
+      height: 100vh;
+      width: 100%;
+      text-align: center;
+      display: block;
+      transition: all 0.3s ease;
+    }
+    #click:checked ~ ul{
+      left: 0;
+    }
+    nav ul li{
+      width: 100%;
+      margin: 40px 0;
+    }
+    nav ul li a{
+      width: 100%;
+      margin-left: -100%;
+      display: block;
+      font-size: 20px;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    #click:checked ~ ul li a{
+      margin-left: 0px;
+    }
+    nav ul li a.active,
+    nav ul li a:hover{
+      background: none;
+      color: cyan;
+    }
+  }
+  @media screen and (min-width:513px) {
+    .center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .quote{
+        width: 23%;
+        font-size: 19px;
+    }
+  }
+  @media screen and (min-width:921px){
+    .text-area .ft,.st,.tt,.ut{
+        font-size: 23px;
+    }
+  }
+  @media screen and (min-width:768px) {
+    .services .firstS{
+        display: flex;
+    }
+    .services .firstS .doc h3{
+        font-size: 30px;
+      }
+      .services .firstS .doc p{
+        font-size: 18px;
+      }
+      .rrr{
+        flex-direction: row-reverse;
+      }
+      .firstp .para1,.para2{
+        font-size: 18px;
+      }
+      .firstp .head1,.head2 h3{
+       font-size: 27px;
+      }
+  }

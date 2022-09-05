@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} 
+/* Nav Section Styling */
+nav{
+  display: flex;
+  height: 12vh;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(.//images/bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+nav .logo{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover{
+  color: crimson
+  /* background: #fff; */
+}
+nav .menu-btn i{
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+/*  */
+.first{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 88vh;
+}
+.text-area{
+  color: white;
+  text-align: center;
+}
+.text-area .ft,.st,.tt,.ut{
+  margin-bottom: 5px;
+}
+.quote{
+  padding: 5px;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+.quote:hover{
+  color: crimson;
+}
+/* Detail Section */
+.firstp{
+  margin-top: 35px;
+  width: 100%;
+}
+.firstp .head1,.para1,.head2,.para2{
+  width: 90%;
+  margin: auto;
+}
+.firstp .para1,.para2{
+  font-size: 12px;
+}
+.firstp .head1,.head2{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+/* Service Section */
+.services{
+  width: 100%;
+  margin-top: 50px;
+}
+.services .firstS{
+  width: 85%;
+  margin: auto;
+}
+.services .firstS .image{
+  text-align: center;
+}
+.services .firstS .doc{
+  text-align: center;
+  margin-top: 20px;
+}
+.services .firstS .doc h3{
+  font-size: 21px;
+}
+.services .firstS .doc p{
+  font-size: 12px;
+  margin-top: 16px;
+}
+.services .firstS .doc .more{
+  margin-top: 19px;
+  margin-bottom: 50px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.services .firstS .doc .more:hover{
+  color: crimson;
+}
+/* Footer section */
+footer{
+    height: 15vh;
+  }
+  footer .text{
+    color: white;
+    text-align: center;
+  }

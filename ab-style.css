@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} 
+/* Nav Section Styling */
+nav{
+  display: flex;
+  height: 12vh;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(.//images/bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+nav .logo{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover{
+  color: crimson
+  /* background: #fff; */
+}
+nav .menu-btn i{
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+/* Footer Section Styling */
+footer{
+    height: 15vh;
+  }
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .text{
+    color: white;
+    text-align: center;
+  }
+  /* About Section Styling */
+  .container{
+    margin-top: 30px;
+    width: 100%;
+  }
+  .about .image{
+    margin: 30px 0px;
+  }
+.about .image img{
+    width: 100%;
+}
+.container .about{
+    width: 90%;
+    margin: auto;
+}
+.container .about .content h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.container .about .content p{
+    font-size: 14px;
+    margin-bottom: 19px;
+}
+.container .about .content .our1,.our2{
+    padding: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    width: 47%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.container .about .content .our2:hover{
+    color: crimson;
+}
+.container .about .content .our1:hover{
+    color: crimson;
+}
+.next-content{
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.next-content .base{
+    width: 80%;
+    margin: auto;
+}
+.next-content .base h2{
+    color: red;
+}
+.next-content .base p{
+    color: grey;
+}
+/* Last */
+.main{
+    width: 100%;
+    text-align: center;
+}
+.main .widt{
+    width: 80%;
+    margin: auto;
+}
+.widt .first-box .first-first .image,.head,.para{
+    margin: 15px auto;
+}
+.widt .first-box .first-second .image,.head,.para{
+    margin: 15px auto;
+}
+.widt .second-box .second-first .image,.head,.para{
+    margin: 15px auto;
+}
+.widt .second-box .second-second .image,.head,.para{
+    margin: 15px auto;
+}

@@ -1,0 +1,154 @@
+@media (max-width: 1000px){
+    nav{
+      padding: 0 40px 0 50px;
+    }
+  }
+  @media (max-width: 920px) {
+    nav{
+      height: 19vh;
+    }
+    nav .menu-btn i{
+      display: block;
+    }
+    #click:checked ~ .menu-btn i:before{
+      content: "\f00d";
+    }
+    nav ul{
+      position: fixed;
+      top: 80px;
+      left: -100%;
+      background: #111;
+      height: 100vh;
+      width: 100%;
+      text-align: center;
+      display: block;
+      transition: all 0.3s ease;
+    }
+    #click:checked ~ ul{
+      left: 0;
+    }
+    nav ul li{
+      width: 100%;
+      margin: 40px 0;
+    }
+    nav ul li a{
+      width: 100%;
+      margin-left: -100%;
+      display: block;
+      font-size: 20px;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    #click:checked ~ ul li a{
+      margin-left: 0px;
+    }
+    nav ul li a.active,
+    nav ul li a:hover{
+      background: none;
+      color: cyan;
+    }
+    .explore{
+      width: 20%;
+    }
+  }
+  @media screen and (max-width:375px) {
+    .main span{
+      display: block;
+      text-align: center;
+    }
+    .main .explore{
+      width: 20%;
+    }
+  }
+  @media (max-width: 768px){
+    .main h2{
+      font-size: 19px;
+    }
+    .main .explore{
+      width: 20%;
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 438px){
+    .main h2{
+      font-size: 16px;
+    }
+    .main .exlpore{
+      width: 27%;
+      font-size: 16px;
+    }
+  }
+  @media screen and (min-width:513px) {
+    .center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  @media screen and (min-width:768px) {
+    .ii .head h3{
+      font-size: 32px;
+    }
+    .ii .para p{
+      font-size: 20px;
+    }
+    .milestone{
+      display: inline;
+    }
+    .milestone .head h3{
+      font-size: 32px;
+    }
+    .mile{
+      display: flex;
+    }
+    .mile .hi,.hii{
+      width: 50%;
+    }
+    .mile .hiii,.hiiii{
+      width: 100%;
+    }
+    .milestone .head{
+      margin-top: 40px;
+    }
+  }
+  @media screen and (min-width:620px){
+    .teamf,.teamSS{
+      display: flex;
+      justify-content: space-between;
+    }
+    
+  }
+  @media screen and (min-width:1110px){
+    .teams .teamsS .box{
+      display: flex;
+    }
+    .teamH .head h2{
+      font-size: 29px;
+    }
+  }
+  @media screen and (min-width:1024px){
+    .globalw{
+      display: flex;
+      justify-content: space-between;
+    }
+    .globalw .image{
+      width: 45%;
+    }
+    .globalw .image img{
+      width: 65%;
+    }
+    .globalw .sec{
+      width: 45%;
+    }
+    .global .sec .head,.text{
+      text-align: center;
+    }
+    .global .sec .head h2{
+      font-size: 30px;
+    }
+    .global .sec .text p{
+      font-size: 17px;
+    }
+    .rev{
+      flex-direction: row-reverse;
+    }
+  }

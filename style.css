@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} 
+/* Nav Section Styling */
+nav{
+  display: flex;
+  height: 12vh;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(.//images/bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+nav .logo{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover{
+  color: crimson
+  /* background: #fff; */
+}
+nav .menu-btn i{
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+
+.firstSection{
+    height: 88vh;
+}
+/*  */
+.main{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+}
+.main .explore{
+  margin-top: 20px;
+  width: 20%;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  background: #000;
+}
+.main .explore:hover{
+  color: crimson;
+}
+.main h2{
+  color:white
+}
+/* Introduction */
+.intro{
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.ii .head h3{
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+.ii .para p{
+  font-size: 14px;
+}
+.ii{
+  width: 90%;
+  margin: auto;
+}
+/* Teams */
+.teams{
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+}
+.teamsS{
+  width: 85%;
+  margin: auto;
+}
+.teamH{
+  margin: 40px auto;
+}
+.teamH .head h2{
+  font-size: 23px;
+}
+.teamH .para p{
+  font-size: 15px;
+}
+.teamff .text{
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.button{
+  margin-bottom: 30px;;
+  margin-top: 20px;
+}
+.button .more{
+  padding: 5px;
+  background-color: #000;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+.button .more:hover{
+  color: crimson;
+}
+.teamfs .text{
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.teamSS .text{
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+/* Global Section */
+.global{
+  width: 100%;
+  text-align: center;
+}
+.global .globalw{
+  width: 90%;
+  margin: auto;
+}
+.globalw .image img{
+  border-radius: 50%;
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.sec .text p{
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+/* Footer Section Styling */
+footer{
+  height: 15vh;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .text{
+  color: white;
+  text-align: center;
+}
